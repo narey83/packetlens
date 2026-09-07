@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-label="packetlens — defensive DDoS forensics for packet captures">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#0d1526"/>
+      <stop offset="1" stop-color="#111c31"/>
+    </linearGradient>
+    <linearGradient id="baseGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#1f7a8c" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#45c4f5" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="spikeGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#f4b740"/>
+      <stop offset="0.55" stop-color="#f97b52"/>
+      <stop offset="1" stop-color="#ff5a5f"/>
+    </linearGradient>
+    <linearGradient id="wordmark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9f2ff"/>
+      <stop offset="1" stop-color="#9fc6f0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#45c4f5" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#45c4f5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="17" fill="none" stroke="#2b3a55" stroke-opacity="0.6"/>
+
+  <!-- soft glow behind the burst -->
+  <circle cx="816" cy="162" r="210" fill="url(#glow)"/>
+
+  <!-- baseline axis -->
+  <line x1="72" y1="244" x2="1128" y2="244" stroke="#33445f" stroke-opacity="0.7" stroke-width="1.5"/>
+
+  <!-- traffic-over-time bar field -->
+  <g>
+    <rect x="72" y="224.5" width="11" height="19.5" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="90" y="224.2" width="11" height="19.8" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="108" y="226.4" width="11" height="17.6" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="126" y="221.8" width="11" height="22.2" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="144" y="221.6" width="11" height="22.4" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="162" y="228.1" width="11" height="15.9" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="180" y="228.1" width="11" height="15.9" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="198" y="226.6" width="11" height="17.4" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="216" y="232.2" width="11" height="11.8" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="234" y="232.9" width="11" height="11.1" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="252" y="227.1" width="11" height="16.9" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="270" y="227.7" width="11" height="16.3" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="288" y="228.7" width="11" height="15.3" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="306" y="222.3" width="11" height="21.7" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="324" y="221.2" width="11" height="22.8" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="342" y="226.1" width="11" height="17.9" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="360" y="224.7" width="11" height="19.3" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="378" y="223.8" width="11" height="20.2" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="396" y="230.6" width="11" height="13.4" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="414" y="232.1" width="11" height="11.9" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="432" y="228.1" width="11" height="15.9" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="450" y="230.6" width="11" height="13.4" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="468" y="231.6" width="11" height="12.4" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="486" y="224.7" width="11" height="19.3" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="504" y="223.1" width="11" height="20.9" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="522" y="226.2" width="11" height="17.8" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="540" y="222.7" width="11" height="21.3" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="558" y="221.3" width="11" height="22.7" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="576" y="227.9" width="11" height="16.1" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="594" y="229.3" width="11" height="14.7" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="612" y="226.9" width="11" height="17.1" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="630" y="231.5" width="11" height="12.5" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="648" y="233.4" width="11" height="10.6" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="666" y="227.3" width="11" height="16.7" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="684" y="226.5" width="11" height="17.5" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="702" y="228.4" width="11" height="15.6" rx="2" fill="url(#spikeGrad)" opacity="0.95"/>
+    <rect x="720" y="164.7" width="11" height="79.3" rx="2" fill="url(#spikeGrad)" opacity="0.95"/>
+    <rect x="738" y="128.2" width="11" height="115.8" rx="2" fill="url(#spikeGrad)" opacity="0.95"/>
+    <rect x="756" y="108.2" width="11" height="135.8" rx="2" fill="url(#spikeGrad)" opacity="0.95"/>
+    <rect x="774" y="90.2" width="11" height="153.8" rx="2" fill="url(#spikeGrad)" opacity="0.95"/>
+    <rect x="792" y="77.6" width="11" height="166.4" rx="2" fill="url(#spikeGrad)" opacity="0.95"/>
+    <rect x="810" y="80.2" width="11" height="163.8" rx="2" fill="url(#spikeGrad)" opacity="0.95"/>
+    <rect x="828" y="86.5" width="11" height="157.5" rx="2" fill="url(#spikeGrad)" opacity="0.95"/>
+    <rect x="846" y="92.8" width="11" height="151.2" rx="2" fill="url(#spikeGrad)" opacity="0.95"/>
+    <rect x="864" y="111.9" width="11" height="132.1" rx="2" fill="url(#spikeGrad)" opacity="0.95"/>
+    <rect x="882" y="139.1" width="11" height="104.9" rx="2" fill="url(#spikeGrad)" opacity="0.95"/>
+    <rect x="900" y="166.8" width="11" height="77.2" rx="2" fill="url(#spikeGrad)" opacity="0.95"/>
+    <rect x="918" y="222.2" width="11" height="21.8" rx="2" fill="url(#spikeGrad)" opacity="0.95"/>
+    <rect x="936" y="225.8" width="11" height="18.2" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="954" y="223.6" width="11" height="20.4" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="972" y="221.3" width="11" height="22.7" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="990" y="227.6" width="11" height="16.4" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="1008" y="230.3" width="11" height="13.7" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="1026" y="227.3" width="11" height="16.7" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="1044" y="230.7" width="11" height="13.3" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="1062" y="233.6" width="11" height="10.4" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="1080" y="227.7" width="11" height="16.3" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="1098" y="225.4" width="11" height="18.6" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+    <rect x="1116" y="228.0" width="11" height="16.0" rx="2" fill="url(#baseGrad)" opacity="0.55"/>
+  </g>
+
+  <!-- scanning lens over the detected burst -->
+  <g stroke="#e9f2ff" stroke-opacity="0.9" fill="none">
+    <circle cx="816" cy="122" r="34" stroke-width="3"/>
+    <circle cx="816" cy="122" r="34" stroke="#45c4f5" stroke-width="3" stroke-opacity="0.5"/>
+    <line x1="840" y1="146" x2="862" y2="168" stroke-width="5" stroke-linecap="round"/>
+    <line x1="782" y1="122" x2="850" y2="122" stroke-width="1" stroke-opacity="0.6"/>
+    <line x1="816" y1="88" x2="816" y2="156" stroke-width="1" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- wordmark -->
+  <g font-family="'SFMono-Regular', 'JetBrains Mono', Menlo, Consolas, monospace">
+    <text x="72" y="118" font-size="72" font-weight="700" letter-spacing="-1" fill="#eaf2ff">packet<tspan fill="#45c4f5">lens</tspan></text>
+    <text x="76" y="162" font-size="24" font-weight="500" fill="#9fb3d1" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">Defensive DDoS forensics for packet captures</text>
+  </g>
+
+  <!-- corner tag -->
+  <g font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="15" fill="#6f86a8">
+    <text x="1128" y="118" text-anchor="end">100% offline · scapy</text>
+    <text x="1128" y="140" text-anchor="end">blue-team / IR</text>
+  </g>
+</svg>
